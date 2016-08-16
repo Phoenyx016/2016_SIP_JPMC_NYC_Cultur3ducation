@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html class="no-js">
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Cultur3ducation</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FREEHTML5.CO" />
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Superfish -->
+	<link rel="stylesheet" href="css/superfish.css">
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script src="js/modernizr-2.6.2.min.js"></script>
+
+	</head>
+	<body>
+		<div id="fh5co-wrapper">
+		<div id="fh5co-page">
+		<div id="fh5co-header">
+			<div class="top">
+				<div class="container">
+					<span><a href="mailto:cultur3ducation@gmail.com"><i>@</i>cultur3ducation@gmail.com</a></span>
+				</div>
+			</div>
+			<!-- end:top -->
+			<header id="fh5co-header-section">
+				<div class="container">
+					<div class="nav-header">
+						<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+						<h1 id="fh5co-logo"><a href="home.html">Cultur3ducation</a></h1>
+						<!-- START #fh5co-menu-wrap -->
+					<nav id="fh5co-menu-wrap" role="navigation">
+						<ul class="sf-menu" id="fh5co-primary-menu">
+							<li class="active">
+								<a href="home.html">Home</a>
+							</li>
+							<li>
+								<a href="about.html">About</a>
+							</li>
+							<li>
+								<a href="resources.html" class="fh5co-sub-ddown">What You Can Do</a>
+							<li><a href="forum.html">Share and Care</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+					</div>
+				</div>
+			</header>
+
+		</div>
+
+
+		<div class="fh5co-hero">
+			<div class="fh5co-overlay"></div>
+			<div class="fh5co-cover text-center" style="background-image: url(images/blue_gradation.jpg);">
+				<div class="desc animate-box">
+					<h2>Cultur3ducation</h2>
+					<span>living to learn, learning to live <a href="http://frehtml5.co/" target="_blank" class="fh5co-site-name"></a></span>
+				</div>
+			</div>
+
+		</div>
+		<div class="progress">
+			<div class="progress-bar progress-bar-lightgrey" role="progressbar" style="width:12.5%">
+				Days:
+			</div>
+		  <div class="progress-bar progress-bar-success" role="progressbar" style="width:12.5%">
+		    <a href="day1.html">Day 1</a>
+		  </div>
+		  <div class="progress-bar progress-bar-orange" role="progressbar" style="width:12.5%">
+		    <a href="day2.html">Day 2</a>
+		  </div>
+		  <div class="progress-bar progress-bar-danger" role="progressbar" style="width:12.5%">
+		    <a href="day3.html">Day 3</a>
+		  </div>
+			<div class="progress-bar progress-bar-purple" role="progressbar" style="width:12.5%">
+				<a href="day4.html">Day 4</a>
+			</div>
+			<div class="progress-bar progress-bar-blue" role="progressbar" style="width:12.5%">
+				<a href="day5.html">Day 5</a>
+			</div>
+			<div class="progress-bar progress-bar-coral" role="progressbar" style="width:12.5%">
+				<a href="day6.html">Day 6</a>
+			</div>
+			<div class="progress-bar progress-bar-green" role="progressbar" style="width:12.5%">
+				<a href="day7.html">Day 7</a>
+			</div>
+
+
+
+		</div>
+		<!-- fh5co-blog-section -->
+		<footer>
+			<div id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+						</div>
+						<div class="col-md-6">
+							<ul class="footer-menu">
+								<li><a href="home.html">Home</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="resources.html">What You Can Do</a></li>
+								<li><a href="forum.html">Share and Care</a></li>
+								<li><a href="contact.html">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+	</div>
+	<!-- END fh5co-page -->
+
+	</div>
+	<!-- END fh5co-wrapper -->
+
+	<!-- jQuery -->
+  <body onload="change_page()">
+  		<script>
+  	function change_page() {
+  		var d = new Date();
+  		var hr = d.getHours();
+  		var min = d.getMinutes();
+  		var sec = d.getSeconds();
+  		var day = d.getDay();
+  		console.log(day);
+  		for(var i = 0; i<=6; i++){
+  			console.log(day);
+  			if (day == i) {
+  				j = i+1;
+  				window.location.href = "day"+j+".html";
+  			}
+  		}
+  	}
+  	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Superfish -->
+	<script src="js/hoverIntent.js"></script>
+	<script src="js/superfish.js"></script>
+
+	<!-- Main JS (Do not remove) -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
